@@ -1,0 +1,6 @@
+exec ./RepeatScreenCapture.sh & 
+exec ./script2.sh
+
+
+
+
