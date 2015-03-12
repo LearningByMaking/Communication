@@ -1,6 +1,7 @@
 #/bin/bash
-MAC_ADDRESS=$(sed -e '$!d' /sys/class/net/*/address)
-MAC_ADDRESS=`echo $MAC_ADDRESS | tr -d -c ".[:alnum:]"`
-import -window root ~/Pictures/$MAC_ADDRESS.png
-rsync ~/Pictures/$MAC_ADDRESS.png lbym@130.157.70.115:/var/www/html/Desktops/
+host="$(hostname)"
+import -window root ~/Pictures/$host.png
+rsync -avz -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p22021 -o LogLevel=quiet"  ~/Pictures/$host.png lbym@lbym.sonoma.edu:/var/www/Desktops/ 
+
+
 

@@ -1,27 +1,19 @@
 
-(process:15475): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
-
-(process:16115): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
-
-(process:16409): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+(process:3562): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
 pbs<@resource://unity/observer.js:38:71
 Observer.prototype.observe@resource://unity/observer.js:77:24
-get_contentWindow@chrome://global/content/bindings/browser.xml:412:54
-get_securityUI@chrome://global/content/bindings/browser.xml:662:17
-browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:786:17
+get_contentWindow@chrome://global/content/bindings/browser.xml:404:54
+get_securityUI@chrome://global/content/bindings/browser.xml:654:17
+browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:778:17
 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
 pbs<@resource://unity/observer.js:38:71
 Observer.prototype.observe@resource://unity/observer.js:77:24
-get_contentWindow@chrome://global/content/bindings/browser.xml:412:54
-get_securityUI@chrome://global/content/bindings/browser.xml:662:17
-browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:786:17
-WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
-pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
-pbs<@resource://unity/observer.js:38:71
-Observer.prototype.observe@resource://unity/observer.js:77:24
+get_contentWindow@chrome://global/content/bindings/browser.xml:404:54
+get_securityUI@chrome://global/content/bindings/browser.xml:654:17
+browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:778:17
 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
 pbs<@resource://unity/observer.js:38:71
@@ -30,7 +22,19 @@ WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isCo
 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
 pbs<@resource://unity/observer.js:38:71
 Observer.prototype.observe@resource://unity/observer.js:77:24
-1423700721063	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4436:9 < shutdownObserver@XPIProvider.jsm:2183:13
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+exports.Utils.yield@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/utils.js:380:12
+INIParser.prototype.process@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/filterStorage.js:870:7
+exports.IO.readFromFile/onProgress@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/io.js:97:15
+exports.IO.readFromFile/<@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/io.js:182:11
+TaskImpl_run@resource://gre/modules/Task.jsm:330:41
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:870:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:749:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:691:37
+1426184959999	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4436:9 < shutdownObserver@XPIProvider.jsm:2184:13
 *************************
 A coding exception was thrown and uncaught in a Task.
 
@@ -38,8 +42,9 @@ Full message: TypeError: Services is null
 Full stack: exports.IO.lineBreak@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/io.js:40:9
 exports.IO.writeToFile/<@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/io.js:211:13
 TaskImpl_run@resource://gre/modules/Task.jsm:330:41
-Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:865:23
-this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:744:7
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:870:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:749:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:691:37
 
 *************************
 *************************
@@ -48,26 +53,27 @@ See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Pr
 
 Full message: TypeError: Cr is null
 Full stack: exports.ElemHide.apply/<@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/elemHide.js:245:11
-Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:868:21
-this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:744:7
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:873:21
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:749:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:691:37
 
 *************************
 
-(process:3946): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+(process:4219): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
 pbs<@resource://unity/observer.js:38:71
 Observer.prototype.observe@resource://unity/observer.js:77:24
-get_contentWindow@chrome://global/content/bindings/browser.xml:412:54
-get_securityUI@chrome://global/content/bindings/browser.xml:662:17
-browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:786:17
+get_contentWindow@chrome://global/content/bindings/browser.xml:404:54
+get_securityUI@chrome://global/content/bindings/browser.xml:654:17
+browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:778:17
 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
 pbs<@resource://unity/observer.js:38:71
 Observer.prototype.observe@resource://unity/observer.js:77:24
-get_contentWindow@chrome://global/content/bindings/browser.xml:412:54
-get_securityUI@chrome://global/content/bindings/browser.xml:662:17
-browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:786:17
+get_contentWindow@chrome://global/content/bindings/browser.xml:404:54
+get_securityUI@chrome://global/content/bindings/browser.xml:654:17
+browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:778:17
 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
 pbs<@resource://unity/observer.js:38:71
@@ -80,4 +86,58 @@ WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isCo
 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
 pbs<@resource://unity/observer.js:38:71
 Observer.prototype.observe@resource://unity/observer.js:77:24
-1424131224406	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4436:9 < shutdownObserver@XPIProvider.jsm:2183:13
+1426185181040	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4436:9 < shutdownObserver@XPIProvider.jsm:2184:13 < exports.Utils.yield@utils.js:380:12 < INIParser.prototype.process@filterStorage.js:870:7 < exports.IO.readFromFile/onProgress@io.js:97:15 < exports.IO.readFromFile/<@io.js:182:11 < TaskImpl_run@Task.jsm:330:41 < Handler.prototype.process@Promise-backend.js:870:23 < this.PromiseWalker.walkerLoop@Promise-backend.js:749:7 < this.PromiseWalker.scheduleWalkerLoop/<@Promise-backend.js:691:37
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: Filter is null
+Full stack: INIParser.prototype.process@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/filterStorage.js:789:9
+exports.IO.readFromFile/onProgress@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/io.js:97:15
+exports.IO.readFromFile/<@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/io.js:182:11
+TaskImpl_run@resource://gre/modules/Task.jsm:330:41
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:870:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:749:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:691:37
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: Cu is null
+Full stack: exports.FilterStorage.loadFromDisk/readFile</<@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/filterStorage.js:385:11
+exports.IO.readFromFile/onError@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/bootstrap.js -> jar:file:///home/user/.mozilla/firefox/tjx31xon.default/extensions/%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D.xpi!/lib/io.js:149:9
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:873:21
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:749:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:691:37
+
+*************************
+
+(process:4394): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+get_contentWindow@chrome://global/content/bindings/browser.xml:404:54
+get_securityUI@chrome://global/content/bindings/browser.xml:654:17
+browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:778:17
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+get_contentWindow@chrome://global/content/bindings/browser.xml:404:54
+get_securityUI@chrome://global/content/bindings/browser.xml:654:17
+browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:778:17
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+pbs<@resource://unity/observer.js:38:71
+Observer.prototype.observe@resource://unity/observer.js:77:24
+1426185224007	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4436:9 < shutdownObserver@XPIProvider.jsm:2184:13

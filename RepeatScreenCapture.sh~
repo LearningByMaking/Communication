@@ -1,6 +1,5 @@
 while true
-do
-	echo "Capture"	
-	sh ScreenCapture.sh
-	sleep 1
+do		
+	sh ScreenCapture.sh > /dev/null
+	sleep 10
 done
