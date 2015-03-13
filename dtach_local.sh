@@ -1,6 +1,8 @@
 #!/bin/bash
 host="$(hostname)"
-ssh -A -t lbym@lbym.sonoma.edu -R 2200:localhost:22 -p22021 "dtach -c meet$host ssh -t -p 2200 user@localhost \"/bin/bash\""
+number="$(echo $host | sed  -e 's/[a-z]*//g')"
+port=$((number+2200))
+ssh -A -t lbym@lbym.sonoma.edu -R $port:localhost:22 -p22021 "dtach -c meet$host ssh -t -p $port user@localhost \"/bin/bash\""
 
 $SHELL
 
